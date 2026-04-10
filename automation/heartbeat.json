@@ -1,0 +1,27 @@
+{
+  "service": "user-dashboard",
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "version": "1.2.3",
+  "uptime_seconds": 3600,
+  "dependencies": {
+    "database": {
+      "status": "healthy",
+      "latency_ms": 15
+    },
+    "authentication": {
+      "status": "healthy",
+      "latency_ms": 22
+    },
+    "cache": {
+      "status": "degraded",
+      "message": "High memory usage",
+      "latency_ms": 55
+    }
+  },
+  "metrics": {
+    "requests_per_minute": 120,
+    "average_response_time_ms": 45,
+    "error_rate": 0.01
+  }
+}
